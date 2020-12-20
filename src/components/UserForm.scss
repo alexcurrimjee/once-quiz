@@ -1,0 +1,69 @@
+.progress {
+  position: fixed;
+  bottom: 30px;
+  right: 0;
+  margin-right: 16px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: rgb(138, 138, 138);
+  @media (min-width: 600px) {
+    width: 25%;
+  }
+}
+.progress-bar {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.step2 {
+  opacity: 0;
+}
+
+.forms .step2 {
+  opacity: 1;
+  transition: all 1s ease-in;
+}
+
+.once-logo {
+  width: 30px;
+  height: auto;
+}
+
+.once-logo.light {
+  .cls-1 {
+    fill: #333;
+  }
+}
+
+.once-logo.dark {
+  .cls-1 {
+    fill: #fff;
+  }
+}
+
+.page-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  margin-bottom: 200px;
+}
+
+.forms {
+  width: 100%;
+  @media (min-width: 900px) {
+    width: 600px;
+  }
+  padding: 16px;
+  flex-shrink: 1;
+}
+
+.forms.large {
+  @media (min-width: 900px) {
+    width: 800px;
+  }
+}
